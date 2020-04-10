@@ -17,14 +17,14 @@
          - if in prod' load : ```file://${path.join(__dirname,"../build/index.html")}```
   10. **update scripts**
   
-           - Scripts": {
-           - "react_start": "react-scripts start",
-           - "react_build": "react-scripts build",
-           - "react_test": "react-scripts test",
-           - "react_eject": "react-scripts eject",
-           - "electron_build":"electron-builder",
-           - "build":"npm run react-build && npm run electron_build",
-           - "start": "concurrently \"cross-env BROWSER=none npm run react_start\" \"wait-on http://localhost:3000 && electron .\""
-           - }, 
+         - Scripts": {
+         - "react_start": "react-scripts start",
+         - "react_build": "react-scripts build",
+         - "react_test": "react-scripts test",
+         - "react_eject": "react-scripts eject",
+         - "electron_build":"electron-builder",
+         - "build":"npm run react-build && npm run electron_build",
+         - "start": "concurrently \"cross-env BROWSER=none npm run react_start\" \"wait-on http://localhost:3000 && electron .\""
+         - }, 
            
 11. ***run ```npm start``` ***
