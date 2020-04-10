@@ -12,9 +12,11 @@
    7. Create the main js file in the publice Directory
    8. Update pacake.json replace ```private : true with main: "public/*filename.js*```
    9. **win.loadURL('index.html')** here u run a check to see if in dev mode or production
-          1. if in dev load : ***http://localhost:3000*** 
-          2. if in prod' load : ***`file://${path.join(__dirname,"../build/index.html")}***
+   
+           1.  if in dev load : ***http://localhost:3000*** 
+           2.  if in prod' load : ***`file://${path.join(__dirname,"../build/index.html")}***
   10. **update scripts**
+  
            1. ***Scripts": {
            2. ***"react_start": "react-scripts start",
            3. ***"react_build": "react-scripts build",
